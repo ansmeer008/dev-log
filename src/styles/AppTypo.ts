@@ -29,25 +29,61 @@ const font = {
   },
 };
 
-export const AppTypo = {
+export const AppTypoTokens = {
   TITLE_BOLD: css`
-    font-size: ${font.size.large};
+    font-size: ${font.size.middle};
     line-height: ${font.lineHeight[600]};
     letter-spacing: ${font.letterSpacing[400]};
     font-weight: ${font.fontWeight.bold};
   `,
   TITLE: css`
-    font-size: ${font.size.large};
+    font-size: ${font.size.middle};
     line-height: ${font.lineHeight[500]};
     letter-spacing: ${font.letterSpacing[400]};
     font-weight: ${font.fontWeight.default};
   `,
   TITLE_THIN:css`
-  font-size: ${font.size.large};
+  font-size: ${font.size.middle};
+    line-height: ${font.lineHeight[500]};
+    letter-spacing: ${font.letterSpacing[200]};
+    font-weight: ${font.fontWeight.thin};
+  `,
+  BODY_BOLD:css`
+  font-size: ${font.size.small};
+  line-height: ${font.lineHeight[600]};
+  letter-spacing: ${font.letterSpacing[400]};
+  font-weight: ${font.fontWeight.bold};
+  `,
+  BODY:css`
+  font-size: ${font.size.small};
     line-height: ${font.lineHeight[500]};
     letter-spacing: ${font.letterSpacing[400]};
+    font-weight: ${font.fontWeight.default};
+  `,
+  BODY_THIN:css`
+  font-size: ${font.size.small};
+  line-height: ${font.lineHeight[500]};
+  letter-spacing: ${font.letterSpacing[200]};
+  font-weight: ${font.fontWeight.thin};
+  `,
+  CAPTION_BOLD: css`
+  font-size: ${font.size.tiny};
+    line-height: ${font.lineHeight[600]};
+    letter-spacing: ${font.letterSpacing[400]};
+    font-weight: ${font.fontWeight.bold};
+  `,
+  CAPTION: css`
+  font-size: ${font.size.tiny};
+    line-height: ${font.lineHeight[500]};
+    letter-spacing: ${font.letterSpacing[400]};
+    font-weight: ${font.fontWeight.default};
+    `,
+  CAPTION_THIN:css`
+  font-size: ${font.size.tiny};
+    line-height: ${font.lineHeight[500]};
+    letter-spacing: ${font.letterSpacing[200]};
     font-weight: ${font.fontWeight.thin};
-  `
+  `,
 };
 
-export type AppTypoKey = keyof typeof AppTypo;
+export type AppTypoKey = keyof typeof AppTypoTokens;

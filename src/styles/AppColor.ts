@@ -55,24 +55,24 @@ export const AppColorStyle = createGlobalStyle`
 
 export const AppColorTokens = {
     LIGHT_GREEN:{
-        hex:'A8BBA0'
+        hex:'#A8BBA0'
     },
     DARK_GRAY:{
-        hex:'323131'
+        hex:'#323131'
     },
     MIDDLE_GRAY:{
-        hex:'A3A1A1'
+        hex:'#A3A1A1'
     },
     LIGHT_GRAY:{
-        hex:'E5E6E5'
+        hex:'#E5E6E5'
     },
     WHITE_GRAY:{
-        hex:'F4F4F4'
+        hex:'#F4F4F4'
     },
     WHITE:{
-        hex:'FFFFFF'
+        hex:'#FFFFFF'
     },
     BLACK:{
-        hex:'000000'
+        hex:'#000000'
     }
 }
